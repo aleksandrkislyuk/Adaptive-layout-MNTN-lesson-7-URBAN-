@@ -1,0 +1,59 @@
+.linkPage {
+  display: grid;
+  position: relative;
+  padding-right: 40px;
+  font-family: 'Poppins';
+  color: #fff;
+
+  /* Ширина стрелки */
+}
+
+.linkPage::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: calc(50% - 6px);
+  /* Высота стрелки */
+  width: 48px;
+  /* Ширина стрелки */
+  height: 5px;
+  /* Высота стрелки */
+  background: #fff;
+  transform: rotate(-90deg);
+  transition: all .3s ease-in-out;
+}
+
+.linkPage:hover::after {
+  /*width: 100%;
+  /* Расширяем стрелку при наведении */
+  /*height: 100%;
+  /* Удлиняем стрелку при наведении */
+  background: #d00606;
+  /* Меняем цвет стрелки при наведении */
+}
+
+.element_one {
+  writing-mode: vertical-rl;
+  /* Размещение текста сверху вниз */
+  transform: rotate(90 deg);
+  /* Поворот текста для отображения сверху вниз */
+  
+  color: #fff;
+}
+
+.element_three {
+  display: grid;
+  width: 7%;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 170px 20px 0px 60px;
+}
+
+.linkPage:hover {
+  color: #FBD784;
+}

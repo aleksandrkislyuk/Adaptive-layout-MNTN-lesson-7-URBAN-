@@ -39,15 +39,13 @@
 
     .article-text {
         padding-left: 50px;
-        max-width: 50%;git add .
+        max-width: 50%; 
         margin-right: 0;
     }
 
     .article-img {
         width: 45%;
     }
-
-}
 
 @media(max-width: 1100px) {
 
