@@ -30,22 +30,22 @@
 }
 
 
-    /*MAIN */
-    .article-text::before {
-        width: 140px;
-        height: 140px;
-        font-size: 140px;
-    }
+/*MAIN */
+.article-text::before {
+    width: 140px;
+    height: 140px;
+    font-size: 140px;
+}
 
-    .article-text {
-        padding-left: 50px;
-        max-width: 50%; 
-        margin-right: 0;
-    }
+.article-text {
+    padding-left: 50px;
+    max-width: 50%;
+    margin-right: 0;
+}
 
-    .article-img {
-        width: 45%;
-    }
+.article-img {
+    width: 45%;
+}
 
 @media(max-width: 1100px) {
 

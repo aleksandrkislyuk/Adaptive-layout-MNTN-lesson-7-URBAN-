@@ -18,7 +18,7 @@
   /* Ширина стрелки */
   height: 5px;
   /* Высота стрелки */
-  background: #fff;
+  background: #abbdc9;
   transform: rotate(-90deg);
   transition: all .3s ease-in-out;
 }
@@ -28,11 +28,11 @@
   /* Расширяем стрелку при наведении */
   /*height: 100%;
   /* Удлиняем стрелку при наведении */
-  background: #d00606;
+  background: #fff;
   /* Меняем цвет стрелки при наведении */
 }
 
-.element_one {
+.social_iconse {
   writing-mode: vertical-rl;
   /* Размещение текста сверху вниз */
   transform: rotate(90 deg);
