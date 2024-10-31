@@ -32,28 +32,43 @@
   /* Меняем цвет стрелки при наведении */
 }
 
-.social_iconse {
-  writing-mode: vertical-rl;
-  /* Размещение текста сверху вниз */
-  transform: rotate(90 deg);
-  /* Поворот текста для отображения сверху вниз */
-  
-  color: #fff;
-}
-
 .element_three {
   display: grid;
   width: 7%;
+  padding: 0px 20px 0px 0px;
 }
+
+
 
 .block {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding: 170px 20px 0px 60px;
+  padding: 100px 30px 0px 20px;
 }
 
 .linkPage:hover {
   color: #FBD784;
 }
+
+.social_iconse {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  vertical-align: auto;
+  writing-mode: vertical-rl;
+  /* Размещение текста сверху вниз */
+  transform: rotate(90 deg);
+  /* Поворот текста для отображения сверху вниз */
+  color: #fff;
+  width: 20px;
+  height: 150px;
+}
+
+.Instagram {
+  padding: 0px 25px 0px 0px;
+}
+
+
+

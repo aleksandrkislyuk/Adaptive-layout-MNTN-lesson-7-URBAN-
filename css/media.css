@@ -1,4 +1,4 @@
-@media(max-width:1700px) {
+@media(max-width:1536px) {
 
     /*HEADER */
     .header {
@@ -11,21 +11,29 @@
     text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
 }
 
-@media(max-width:1024px) {
+@media(max-width:1400px) {
     .hero-title {
         font-size: 60px;
     }
 }
 
-@media(max-width:767px) {
+@media(max-width:768px) {
     .hero-title {
         font-size: 44px;
     }
 }
 
-@media(max-width:320px) {
+@media(max-width:480px) {
     .hero-title {
         font-size: 30px;
+        padding: 10px 10px 0px 0px;
+    }
+}
+
+@media(max-width:480px) {
+    .social_iconse a {
+        display: none;
+        width: 0;
     }
 }
 
@@ -47,7 +55,7 @@
     width: 45%;
 }
 
-@media(max-width: 1100px) {
+@media(max-width: 1400px) {
 
     /*FOOTER */
     .footer-nav+.footer-nav {
@@ -57,7 +65,7 @@
 
 }
 
-@media(max-width: 920px) {
+@media(max-width: 768px) {
 
     /*FOOTER */
     .footer-row {
@@ -67,10 +75,9 @@
     .footer-nav-wrapper {
         margin-bottom: 80px;
     }
-
 }
 
-@media(max-width: 800px) {
+@media(max-width: 768px) {
 
     /*HEADER */
     .header {
@@ -94,26 +101,22 @@
         display: flex;
     }
 
-
-
     .hero-category::before {
         width: 42px;
     }
 
     .hero-category {
         font-size: 14px;
-        padding-left: 62px;
+        padding-left: 100px;
     }
 
     /*MAIN */
     .article-title {
         font-size: 44px;
     }
-
-
 }
 
-@media(max-width: 720px) {
+@media(max-width: 768px) {
 
     /*MAIN */
     .article-text {
@@ -121,7 +124,7 @@
     }
 
     .article-img {
-        max-width: 320px;
+        max-width: 480px;
         width: 100%;
         margin-bottom: 75px;
     }
@@ -135,9 +138,7 @@
 
 }
 
-@media(max-width: 560px) {
-
-
+@media(max-width: 768px) {
 
     /*FOOTER */
     .footer-nav-wrapper {
@@ -148,5 +149,122 @@
         margin-left: 0;
         margin-top: 60px;
     }
-
 }
+
+@media (max-width: 768px) {
+
+    .mobile-nav-active .nav ul li a,
+    .mobile-nav-active .account {
+        color: #000;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-nav-active a.account::before {
+        background-image: url('/img/icons/user.png');
+    }
+}
+
+@media (max-width: 768px) {
+
+    .nav-button-close .nav-button-icon::before,
+    .nav-button-close .nav-button-icon::after {
+        background-color: #000;
+    }
+}
+
+@media (max-width: 768px) {
+    .Instagram1 {
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .social_iconse {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 480px) {
+    .mobile-nav {
+        height: 350px;
+    }
+}
+
+/*@media (max-width: 320px) {
+    .mobile-nav {
+        flex-direction: column;
+        
+    }
+}*/
+
+@media (max-width: 480px) {
+    .mobile-nav .nav ul {
+        flex-direction: column;
+        margin: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .mob-wrapper > .accaunt {
+        position: absolute;
+        top: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .mobile-nav.mob-wrapper {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .mobile-nav.mob-wrapper.accaunt {
+        
+        position: absolute;
+        bottom: 300px;
+        left: 300px;
+    }
+}
+
+.social_iconse1 {
+    display: none;
+}
+
+.hero1 {
+    margin-left: auto;
+    margin-right: 0em;
+}
+
+@media screen and (max-width: 480px) {
+    .social_iconse1 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: end;
+        align-items: center;
+        padding: 0 50px 0 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .hero-category
+     {
+        padding-left: 70px;
+    }
+
+    .hero-scroll {
+        padding-left: 0px;
+    }
+
+    .hero-category::before {
+        left: 0px;
+    }
+}
+
+
+
