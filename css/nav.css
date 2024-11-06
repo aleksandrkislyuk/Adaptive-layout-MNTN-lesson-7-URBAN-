@@ -24,12 +24,7 @@
 }
 
 .linkPage:hover::after {
-  /*width: 100%;
-  /* Расширяем стрелку при наведении */
-  /*height: 100%;
-  /* Удлиняем стрелку при наведении */
   background: #fff;
-  /* Меняем цвет стрелки при наведении */
 }
 
 .element_three {
@@ -37,8 +32,6 @@
   width: 7%;
   padding: 0px 20px 0px 0px;
 }
-
-
 
 .block {
   display: flex;
