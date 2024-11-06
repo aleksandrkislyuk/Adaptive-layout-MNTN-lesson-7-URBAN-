@@ -40,7 +40,6 @@ img {
   max-width: 100%;
 }
 
-
 /*BASE */
 .no-scroll {
   overflow-y: hidden;
@@ -49,12 +48,11 @@ img {
 .container-wide {
   max-width: 1790px;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0px 30px;
 }
 
 .row {
   display: flex;
-
 }
 
 .space-between {
@@ -81,10 +79,10 @@ img {
   margin-bottom: 650px;
 }
 
-.logo  {
+.logo {
   z-index: 10;
   font-family: 'Playfair Display', serif;
-  font-size: 32PX;
+  font-size: 32px;
   font-weight: 700;
 }
 
@@ -160,6 +158,33 @@ img {
   width: 20px;
   height: 20px;
   background-image: url('/img/icons/account.svg');
+  background-size: contain;
+}
+
+.acc1 .account1 {
+  position: relative;
+  padding-left: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+.acc1 .account1:hover {
+  color: #FBD784;
+  transition: color 0.2s ease-in;
+}
+
+.acc1 .account1::before {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url('/img/icons/user.png');
   background-size: contain;
 }
 
@@ -239,43 +264,42 @@ img {
   border-radius: 1ch;
 }
 
-.mobile-nav .nav,
+.mobile-nav .mob-wrapper .nav,
 .mobile-nav .account {
   display: flex;
-
 }
 
-.mobile-nav .nav ul li {
+.mobile-nav .mob-wrapper .nav ul li {
   margin: 0;
-  padding: 0px 10px;
-
+  padding: 0px 10px 0px 10px;
 }
 
-.mobile-nav .nav ul {
+.mobile-nav .mob-wrapper .nav ul {
   flex-direction: row;
   margin: auto;
 }
 
-.mobile-nav > .mob-wrapper {
+.mobile-nav>.mob-wrapper {
   display: flex;
   position: absolute;
-  top: 65%;
+  top: 180px;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   margin: auto;
   padding: 0 80px 0 0;
-  }
+}
 
-  .mob-wrapper > .account {
-    position: absolute;
-    right: 20%;
-    top: 0%;
-  }
+.mob-wrapper>.account {
+  position: absolute;
+  right: 20%;
+  top: 0%;
+}
 
 /* HERO */
 
-.hero, .hero1 {
+.hero,
+.hero1 {
   display: block;
   position: relative;
   margin-left: auto;
@@ -563,4 +587,3 @@ img {
   bottom: 0;
   opacity: 1;
 }
-

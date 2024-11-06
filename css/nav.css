@@ -45,7 +45,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding: 100px 30px 0px 20px;
+  padding: 100px 50px 0px 20px;
 }
 
 .linkPage:hover {
@@ -66,9 +66,27 @@
   height: 150px;
 }
 
-.Instagram {
-  padding: 0px 25px 0px 0px;
+.social_iconse2 {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  /*vertical-align: auto;*/
+  writing-mode: vertical-rl;
+  /* Размещение текста сверху вниз */
+  /*transform: rotate(90 deg);*/
+  /* Поворот текста для отображения сверху вниз */
+  width: 10px;
+  height: 150px;
+            }
+
+.social_iconse2 .hero_2 {
+  color: #000;
+  font-weight: 1000;
+  font-family: 'Poppins';
+  font-size: large;
 }
 
-
-
+.Instagram2, 
+.twitter2 {
+  width: 16px;
+}

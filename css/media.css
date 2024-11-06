@@ -39,30 +39,27 @@
 
 
 /*MAIN */
-.article-text::before {
+    .article-text::before {
     width: 140px;
     height: 140px;
     font-size: 140px;
 }
 
-.article-text {
+    .article-text {
     padding-left: 50px;
     max-width: 50%;
     margin-right: 0;
 }
 
-.article-img {
+    .article-img {
     width: 45%;
 }
 
 @media(max-width: 1400px) {
-
     /*FOOTER */
     .footer-nav+.footer-nav {
         margin-left: 100px;
     }
-
-
 }
 
 @media(max-width: 768px) {
@@ -153,7 +150,7 @@
 
 @media (max-width: 768px) {
 
-    .mobile-nav-active .nav ul li a,
+    .mobile-nav-active .mob-wrapper .nav ul li a,
     .mobile-nav-active .account {
         color: #000;
     }
@@ -179,9 +176,9 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) {
     .social_iconse {
-        display: flex;
+        display: none;
         justify-content: flex-end;
     }
 }
@@ -192,50 +189,48 @@
     }
 }
 
-/*@media (max-width: 320px) {
-    .mobile-nav {
-        flex-direction: column;
-        
-    }
-}*/
-
 @media (max-width: 480px) {
-    .mobile-nav .nav ul {
+    .mobile-nav .mob-wrapper .nav ul {
         flex-direction: column;
         margin: auto;
-    }
+    } 
 }
 
-@media (max-width: 480px) {
-    .mob-wrapper > .accaunt {
+@media (max-width: 320px) {
+    .acc1 {
         position: absolute;
-        top: 0;
+        top: 310px;
     }
 }
 
 @media (max-width: 320px) {
-    .mobile-nav.mob-wrapper {
+    .mobile-nav .mob-wrapper {
         display: flex;
         flex-direction: column;
         position: relative;
-        top: -10px;
+        top: -5px;
     }
 }
 
 @media (max-width: 320px) {
-    .mobile-nav.mob-wrapper.accaunt {
-        
+    .account {
+        display: none;
         position: absolute;
         bottom: 300px;
         left: 300px;
     }
 }
 
-.social_iconse1 {
-    display: none;
+@media (min-width: 320px) {
+    .account1 {
+        display: none;
+        position: absolute;
+        top: 15px;
+        right: 50px;
+    }
 }
 
-.hero1 {
+    .hero1 {
     margin-left: auto;
     margin-right: 0em;
 }
@@ -246,7 +241,13 @@
         flex-flow: row wrap;
         justify-content: end;
         align-items: center;
-        padding: 0 50px 0 0;
+        padding: 0 10px 0 0;
+    }
+}
+
+@media (min-width: 480px) {
+    .social_iconse1 {
+        display: none;
     }
 }
 
@@ -266,5 +267,8 @@
     }
 }
 
-
-
+@media (min-width: 320px) {
+    .mobile-nav .social_iconse2 {
+        display: none;
+    }
+}
